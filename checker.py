@@ -4,10 +4,10 @@ import os
 import time
 import requests
 
-api_id = 17796973  # <============Your API ID here https://my.telegram.org/apps
-api_hash = '60282cfcedfd7d7b4be1c0ab18567e6a'  # <============Your API Hash here https://my.telegram.org/apps
-bot_token = '1540181760:AAEnIs2M31DEIo0eweKbO3grGRLd0kFkByk'  # Your bot token
-chat_id = '1314803697'  # Replace with your chat ID, find it at Telegram Bot @userinfobot
+api_id = 19236456  # <============Your API ID here https://my.telegram.org/apps
+api_hash = '12892cfcsfd7d7b4af1c0ab18567e6a'  # <============Your API Hash here https://my.telegram.org/apps
+bot_token = '0752289740:ANEnIs2V22GEIo0edeKbO5grGRLt0kFjBck'  # Your bot token
+chat_id = '1584123455'  # Replace with your chat ID, find it at Telegram Bot @userinfobot
 
 os.system("clear")
 
