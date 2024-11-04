@@ -37,10 +37,10 @@ pip install -r requirements.txt
 
 3. Update the script with your credentials:
 
-api_id = YOUR_API_ID  # Replace with your API ID
-api_hash = 'YOUR_API_HASH'  # Replace with your API Hash
-bot_token = 'YOUR_BOT_TOKEN'  # Replace with your bot token
-chat_id = 'YOUR_CHAT_ID'  # Replace with your chat ID
+api_id = YOUR_API_ID *Replace with your API ID
+api_hash = 'YOUR_API_HASH' *Replace with your API Hash
+bot_token = 'YOUR_BOT_TOKEN' *Replace with your bot token
+chat_id = 'YOUR_CHAT_ID' *Replace with your chat ID
 
 4.Run the script:
 ```bash
