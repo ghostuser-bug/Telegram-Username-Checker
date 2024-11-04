@@ -27,14 +27,14 @@ Chat ID: Use a bot like @userinfobot to get your chat ID.
 
 ## Usage
 
-1.Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/ghostuser-bug/telegram-username-checker.git
 cd telegram-username-checker
 ```
-2.Create a file named words.txt in the same directory as the script. This file should contain a list of usernames to check, with each username on a new line.
+2. Create a file named words.txt in the same directory as the script. This file should contain a list of usernames to check, with each username on a new line.
 
-3.Update the script with your credentials:
+3. Update the script with your credentials:
 
 api_id = YOUR_API_ID  # Replace with your API ID
 api_hash = 'YOUR_API_HASH'  # Replace with your API Hash
@@ -50,6 +50,3 @@ python checker.py
 The script will check each username from the words.txt file and will print whether the username is available or already taken.
 If a username is available, a message will be sent to the specified Telegram chat.
 The script pauses for 10 seconds between each username check to avoid hitting Telegram's rate limits.
-
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
