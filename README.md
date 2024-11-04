@@ -1,6 +1,6 @@
 # Telegram Username Checker
 
-This script checks the availability of usernames on Telegram using the Telegram API. It sends a message to a specified chat when a username is available.
+This script checks the availability of usernames on Telegram using the Telegram API. The script will check username based on words.txt file in the same directory. It sends a message to a specified chat when a username is available.
 
 ## ⚠️ Warning
 Please use a user account (phone number) for this script to work as Telegram will not allow bots to check usernames!
