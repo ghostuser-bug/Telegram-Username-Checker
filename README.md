@@ -15,7 +15,7 @@ To run this script, you need the following:
   - `requests`
 
 You can install the required packages using pip:
--`pip install pyrogram requests`
+-`pip install -r requirements.txt`
 
 ## Telegram API Credentials
 You need to obtain your Telegram API ID and API Hash by registering your application at my.telegram.org
@@ -27,10 +27,11 @@ Chat ID: Use a bot like @userinfobot to get your chat ID.
 
 ## Usage
 
-1. Clone the repository:
+1. Clone the repository and install the requirements:
 ```bash
 git clone https://github.com/ghostuser-bug/telegram-username-checker.git
 cd telegram-username-checker
+pip install -r requirements.txt
 ```
 2. Create a file named words.txt in the same directory as the script. This file should contain a list of usernames to check, with each username on a new line.
 
