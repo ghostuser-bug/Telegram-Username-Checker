@@ -26,44 +26,30 @@ Bot Token: Create a bot using BotFather and obtain the bot token.
 Chat ID: Use a bot like @userinfobot to get your chat ID.
 
 ## Usage
-Clone the repository:
 
+1.Clone the repository:
 ```bash
-git clone https://github.com/yourusername/telegram-username-checker.git
+git clone https://github.com/ghostuser-bug/telegram-username-checker.git
 cd telegram-username-checker
-bash
-Create a file named words.txt in the same directory as the script. This file should contain a list of usernames to check, with each username on a new line.
+```
+2.Create a file named words.txt in the same directory as the script. This file should contain a list of usernames to check, with each username on a new line.
 
-Update the script with your credentials:
-
-python
+3.Update the script with your credentials:
 
 api_id = YOUR_API_ID  # Replace with your API ID
 api_hash = 'YOUR_API_HASH'  # Replace with your API Hash
 bot_token = 'YOUR_BOT_TOKEN'  # Replace with your bot token
 chat_id = 'YOUR_CHAT_ID'  # Replace with your chat ID
-Run the script:
 
+4.Run the script:
+```bash
+python checker.py
+```
 
-Verify
-
-Open In Editor
-Edit
-Copy code
-python script_name.py
-Replace script_name.py with the actual name of your Python script.
-
-Notes
+### Notes
 The script will check each username from the words.txt file and will print whether the username is available or already taken.
 If a username is available, a message will be sent to the specified Telegram chat.
 The script pauses for 10 seconds between each username check to avoid hitting Telegram's rate limits.
 
-License
+### License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-### Instructions for Use
-1. Replace `yourusername` in the clone URL with your actual GitHub username.
-2. Ensure that the `words.txt` file is formatted correctly with one username per line.
-3. Make sure to test the script after setting it up to confirm that everything works as expected.
-
-Feel free to modify the content as necessary to better fit your project or personal style!
