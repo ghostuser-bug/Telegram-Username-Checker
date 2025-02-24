@@ -33,7 +33,7 @@ print("""
 ╚█████╔╝██║░░██║███████╗╚█████╔╝██║░╚██╗███████╗██║░░██║
 ░╚════╝░╚═╝░░╚═╝╚══════╝░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
 """)
-print("Recoded by Jen")
+print("Code by Jen")
 print("⚠️ Warning: Please use a user account (phone number) for this script to work as Telegram will not allow bots to check usernames!")
 
 
